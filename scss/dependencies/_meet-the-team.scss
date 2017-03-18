@@ -73,6 +73,9 @@
     .embed-responsive {
       position:relative;
       top:-45px;
+      iframe {
+        border:2px solid #FFF !important;
+      }
     }
   }
   .img-wrap {
@@ -101,6 +104,7 @@
     .img-wrap {
       position:relative;
       top:initial;
+
     }
     .video-wrap {
       padding:40px 0;

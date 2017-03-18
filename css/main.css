@@ -23066,6 +23066,8 @@ body.stretched #header.full-header .container {
     .meet-the-team-below .video-wrap .embed-responsive {
       position: relative;
       top: -45px; }
+      .meet-the-team-below .video-wrap .embed-responsive iframe {
+        border: 2px solid #FFF !important; }
   .meet-the-team-below .img-wrap {
     position: absolute;
     top: -55px; }
