@@ -3,6 +3,8 @@
 $source-sans-pro:'Source Sans Pro', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
 $lato: 'Lato', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
 
 
 
@@ -22,14 +24,23 @@ $lato: 'Lato', sans-serif;
 // End Canvas Dependencies //
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:'Open Sans', sans-serif;
+  font-family:$source-sans-pro;
 }
 
 h1 {
   font-size:64px;
 }
 h2 {
-  font-size:48px;
+  font-size:45px;
+  font-weight:300 !important;
+  font-family:$poppins;
+  @media (max-width:768px) {
+    font-size:36px;
+  }
+  @media (max-width:480px) {
+    font-size:32px;
+  }
+
 }
 h3 {
   font-size:36px;
@@ -46,10 +57,14 @@ h6 {
 
 p {
   font-size:18px;
+  font-family:$source-sans-pro;
 }
 
 section {
   padding:60px 0;
+  @media (max-width:991px) {
+    padding:30px 0;
+  }
 }
 .content-wrap {
   padding:0;
@@ -90,6 +105,7 @@ section {
 @import "dependencies/_navbar.scss";
 @import "dependencies/_slides.scss";
 @import "dependencies/_phone-slug.scss";
+@import "dependencies/_meet-the-team.scss";
 
 // End My Dependencies //
 

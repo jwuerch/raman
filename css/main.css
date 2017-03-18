@@ -22804,13 +22804,21 @@ img.mfp-img {
     display: inline-block; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 h1 {
   font-size: 64px; }
 
 h2 {
-  font-size: 48px; }
+  font-size: 45px;
+  font-weight: 300 !important;
+  font-family: "Poppins", sans-serif; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 36px; } }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-size: 36px; }
@@ -22825,10 +22833,14 @@ h6 {
   font-size: 20px; }
 
 p {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif; }
 
 section {
   padding: 60px 0; }
+  @media (max-width: 991px) {
+    section {
+      padding: 30px 0; } }
 
 .content-wrap {
   padding: 0; }
@@ -22997,5 +23009,38 @@ body.stretched #header.full-header .container {
   @media (max-width: 480px) {
     .phone-slug-two-column .col-1 .new-hotline-phone {
       font-size: 34px; } }
+
+.section-meet-the-team h2 {
+  color: #CD6A72;
+  margin-bottom: 50px; }
+
+.section-meet-the-team .col-1 {
+  padding-right: 40px; }
+  .section-meet-the-team .col-1 img {
+    border-radius: 16px; }
+
+.section-meet-the-team .col-2 h3 {
+  color: #4C8481;
+  font-weight: 400;
+  margin-bottom: 15px; }
+  .section-meet-the-team .col-2 h3 .dmd {
+    font-size: 31px; }
+
+.section-meet-the-team p {
+  line-height: 28px !important; }
+
+@media (max-width: 991px) {
+  .section-meet-the-team .col-1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 15px; }
+  .section-meet-the-team h2 {
+    margin-bottom: 20px; } }
+
+@media (max-width: 480px) {
+  .section-meet-the-team .col-2 h3 {
+    font-size: 28px; }
+    .section-meet-the-team .col-2 h3 .dmd {
+      font-size: 24px; } }
 
 /*# sourceMappingURL=main.css.map */

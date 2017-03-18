@@ -1,3 +1,47 @@
-.meet-the-team-section {
+.section-meet-the-team {
+  h2 {
+    color:#CD6A72;
+    margin-bottom:50px;
+  }
+  .col-1 {
+    padding-right:40px;
+    img {
+      border-radius:16px;
+    }
+  }
+  .col-2 {
+    h3 {
+      color:#4C8481;
+      font-weight:400;
+      margin-bottom:15px;
+      .dmd {
+        font-size:31px;
+      }
+    }
 
+  }
+  p {
+    line-height:28px !important;
+  }
+  @media (max-width:991px) {
+    .col-1 {
+      text-align:center;
+      margin-bottom:20px;
+      padding-right:15px;
+    }
+    h2 {
+      margin-bottom:20px;
+    }
+
+  }
+  @media (max-width:480px) {
+    .col-2 {
+      h3 {
+        font-size:28px;
+        .dmd {
+          font-size:24px;
+        }
+      }
+    }
+  }
 }
