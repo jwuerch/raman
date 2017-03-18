@@ -1,0 +1,14 @@
+#primary-menu-trigger {
+  font-size:25px;
+  color:#000;
+  right:0;
+  left:initial;
+}
+
+#logo img {
+  padding:5px 0;
+  @media (max-width:480px) {
+    max-width:275px;
+  }
+}
+

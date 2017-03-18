@@ -1,0 +1,57 @@
+// Font Families //
+
+
+
+
+// End Font Families //
+
+
+
+// Canvas Dependencies //
+
+@import "canvas-dependencies/_bootstrap.scss";
+@import "canvas-dependencies/_style.scss";
+@import "canvas-dependencies/_swiper.scss";
+@import "canvas-dependencies/_dark.scss";
+@import "canvas-dependencies/_animate.scss";
+@import "canvas-dependencies/_magnific-popup.scss";
+@import "canvas-dependencies/_responsive.scss";
+
+// End Canvas Dependencies //
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size:64px;
+}
+h2 {
+  font-size:48px;
+}
+h3 {
+  font-size:36px;
+}
+h4 {
+  font-size:24px;
+}
+h5 {
+  font-size:20px;
+}
+h6 {
+  font-size:18px;
+}
+
+p {
+  font-size:16px;
+}
+
+section {
+  padding:60px 0;
+}
+
+// My Dependencies //
+@import "dependencies/_navbar.scss";
+
+// End My Dependencies //
+
