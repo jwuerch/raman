@@ -23043,4 +23043,52 @@ body.stretched #header.full-header .container {
     .section-meet-the-team .col-2 h3 .dmd {
       font-size: 24px; } }
 
+.shaded-divider-wrap {
+  margin-top: 30px; }
+  .shaded-divider-wrap img {
+    width: 100%;
+    background-size: cover; }
+
+.carousel-wrap {
+  padding-bottom: 80px; }
+  @media (max-width: 991px) {
+    .carousel-wrap {
+      padding-bottom: 30px; } }
+
+.meet-the-team-below {
+  background: url("../images/team-video-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .meet-the-team-below .container {
+    height: 285px; }
+  .meet-the-team-below .video-wrap {
+    padding: 80px; }
+    .meet-the-team-below .video-wrap .embed-responsive {
+      position: relative;
+      top: -45px; }
+  .meet-the-team-below .img-wrap {
+    position: absolute;
+    top: -55px; }
+  @media (max-width: 1200px) {
+    .meet-the-team-below .container {
+      height: 240px; }
+    .meet-the-team-below .img-wrap {
+      top: -40px; }
+    .meet-the-team-below .video-wrap {
+      padding: 70px; }
+      .meet-the-team-below .video-wrap .embed-responsive {
+        top: -37.5px; } }
+  @media (max-width: 991px) {
+    .meet-the-team-below {
+      height: initial; }
+      .meet-the-team-below .container {
+        height: initial; }
+      .meet-the-team-below .img-wrap {
+        position: relative;
+        top: initial; }
+      .meet-the-team-below .video-wrap {
+        padding: 40px 0; }
+        .meet-the-team-below .video-wrap .embed-responsive {
+          top: initial; } }
+
 /*# sourceMappingURL=main.css.map */

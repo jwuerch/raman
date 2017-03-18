@@ -45,3 +45,70 @@
     }
   }
 }
+
+.shaded-divider-wrap {
+  margin-top:30px;
+  img {
+    width:100%;
+    background-size:cover;
+  }
+}
+
+.carousel-wrap {
+  padding-bottom:80px;
+  @media (max-width:991px) {
+    padding-bottom:30px;
+  }
+}
+
+.meet-the-team-below {
+  background:url('../images/team-video-bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  .container {
+    height:285px;
+  }
+  .video-wrap {
+    padding:80px;
+    .embed-responsive {
+      position:relative;
+      top:-45px;
+    }
+  }
+  .img-wrap {
+    position: absolute;
+    top:-55px;
+  }
+  @media (max-width:1200px) {
+    .container {
+      height:240px;
+    }
+    .img-wrap {
+      top:-40px;
+    }
+    .video-wrap {
+      padding:70px;
+      .embed-responsive {
+        top:-37.5px;
+      }
+    }
+  }
+  @media (max-width:991px) {
+    height:initial;
+    .container {
+      height:initial;
+    }
+    .img-wrap {
+      position:relative;
+      top:initial;
+    }
+    .video-wrap {
+      padding:40px 0;
+      .embed-responsive {
+        top:initial;
+      }
+    }
+  }
+
+
+}
