@@ -1,5 +1,6 @@
 // Font Families //
 
+$source-sans-pro:'Source Sans Pro', sans-serif;
 
 
 
@@ -12,7 +13,6 @@
 @import "canvas-dependencies/_bootstrap.scss";
 @import "canvas-dependencies/_style.scss";
 @import "canvas-dependencies/_swiper.scss";
-@import "canvas-dependencies/_dark.scss";
 @import "canvas-dependencies/_animate.scss";
 @import "canvas-dependencies/_magnific-popup.scss";
 @import "canvas-dependencies/_responsive.scss";
@@ -52,6 +52,7 @@ section {
 
 // My Dependencies //
 @import "dependencies/_navbar.scss";
+@import "dependencies/_slides.scss";
 
 // End My Dependencies //
 
