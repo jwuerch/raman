@@ -22819,16 +22819,54 @@ h4 {
   font-size: 24px; }
 
 h5 {
-  font-size: 20px; }
+  font-size: 22px; }
 
 h6 {
-  font-size: 18px; }
+  font-size: 20px; }
 
 p {
-  font-size: 16px; }
+  font-size: 18px; }
 
 section {
   padding: 60px 0; }
+
+.content-wrap {
+  padding: 0; }
+
+.button {
+  background: #FF8A38;
+  border: 2px solid #FFF;
+  text-transform: uppercase;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-shadow: none;
+  font-size: 18px;
+  box-shadow: none;
+  color: #FFF !important;
+  height: 55px;
+  border-radius: 100px;
+  margin: 0;
+  max-width: 325px; }
+  .button:hover {
+    color: #FFF !important;
+    text-shadow: none;
+    background: #E67C33; }
+  @media (max-width: 400px) {
+    .button {
+      max-width: 275px;
+      font-size: 16px;
+      height: 50px; } }
 
 #primary-menu-trigger {
   font-size: 25px;
@@ -22891,6 +22929,13 @@ body.stretched #header.full-header .container {
 #header.full-header {
   border-bottom: 0; }
 
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+  height: 100px; }
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top: 39px;
+  padding-bottom: 39px; }
+
 .slide-1, .slide-2, .slide-3 {
   background-size: cover;
   background-repeat: no-repeat;
@@ -22898,5 +22943,59 @@ body.stretched #header.full-header .container {
 
 #slider {
   padding: 0; }
+
+.mobile-slide img {
+  width: 100%; }
+
+.phone-slug-two-column {
+  padding: 20px 0;
+  background: url("../images/cta-pattern-blue-linen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .phone-slug-two-column p {
+    margin-bottom: 0;
+    color: #4E4E4E; }
+  .phone-slug-two-column a {
+    color: #4E4E4E; }
+    .phone-slug-two-column a:hover {
+      text-decoration: none; }
+  .phone-slug-two-column .col-1 {
+    text-align: right;
+    padding-right: 20px;
+    border-right: 2px solid #764A1D; }
+    .phone-slug-two-column .col-1 .new-hotline-text {
+      font-family: "Lato", sans-serif;
+      font-weight: 700; }
+    .phone-slug-two-column .col-1 .new-hotline-phone {
+      font-weight: 900;
+      font-family: "Lato", sans-serif;
+      font-size: 42px;
+      line-height: 35px !important;
+      margin-bottom: 2px; }
+  .phone-slug-two-column .col-2 {
+    text-align: left;
+    padding-left: 20px; }
+    .phone-slug-two-column .col-2 .button {
+      margin: 5px 0; }
+  .phone-slug-two-column .existing-hotline-text {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 22px !important; }
+    .phone-slug-two-column .existing-hotline-text a {
+      font-weight: 700; }
+  @media (max-width: 768px) {
+    .phone-slug-two-column {
+      border-right: 0; }
+      .phone-slug-two-column .col-1, .phone-slug-two-column .col-2 {
+        text-align: center;
+        padding: 0; }
+      .phone-slug-two-column .col-1 {
+        border-right: 0; }
+      .phone-slug-two-column .col-2 .button {
+        margin: 0 auto;
+        margin-top: 15px; } }
+  @media (max-width: 480px) {
+    .phone-slug-two-column .col-1 .new-hotline-phone {
+      font-size: 34px; } }
 
 /*# sourceMappingURL=main.css.map */

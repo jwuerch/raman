@@ -1,3 +1,73 @@
-.phone-slug-section {
+.phone-slug-two-column {
+  padding:20px 0;
+  background:url('../images/cta-pattern-blue-linen.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  p {
+    margin-bottom:0;
+    color:#4E4E4E;
+  }
+  a {
+    color:#4E4E4E;
+    &:hover {
+      text-decoration:none;
+    }
+  }
+  .col-1 {
+    text-align:right;
+    padding-right:20px;
+    border-right:2px solid #764A1D;
+    .new-hotline-text {
+      font-family:$lato;
+      font-weight:700;
+    }
+    .new-hotline-phone {
+      font-weight:900;
+      font-family:$lato;
+      font-size:42px;
+      line-height:35px !important;
+      margin-bottom:2px;
+      a {
+      }
+    }
+  }
+  .col-2 {
+    text-align:left;
+    padding-left:20px;
+    .button {
+      margin:5px 0;
+    }
+  }
+  .existing-hotline-text {
+    text-align:center;
+    margin-top:10px;
+    line-height:22px !important;
+    a {
+      font-weight:700;
+    }
+  }
+  @media (max-width:768px) {
+    border-right:0;
+    .col-1, .col-2 {
+      text-align:center;
+      padding:0;
+    }
+    .col-1 {
+      border-right:0;
+    }
+    .col-2 {
+      .button {
+        margin:0 auto;
+        margin-top:15px;
+      }
+    }
 
+  }
+  @media (max-width:480px) {
+    .col-1 {
+      .new-hotline-phone {
+        font-size: 34px;
+      }
+    }
+  }
 }

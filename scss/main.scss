@@ -1,6 +1,8 @@
 // Font Families //
 
 $source-sans-pro:'Source Sans Pro', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$lato: 'Lato', sans-serif;
 
 
 
@@ -36,23 +38,58 @@ h4 {
   font-size:24px;
 }
 h5 {
-  font-size:20px;
+  font-size:22px;
 }
 h6 {
-  font-size:18px;
+  font-size:20px;
 }
 
 p {
-  font-size:16px;
+  font-size:18px;
 }
 
 section {
   padding:60px 0;
 }
+.content-wrap {
+  padding:0;
+}
+
+.button {
+  background:#FF8A38;
+  border:2px solid #FFF;
+  text-transform:uppercase;
+  padding:10px 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:$montserrat;
+  font-weight:400;
+  letter-spacing:0;
+  text-shadow:none;
+  font-size:18px;
+  box-shadow:none;
+  color:#FFF !important;
+  height:55px;
+  border-radius:100px;
+  margin:0;
+  max-width:325px;
+  &:hover {
+    color:#FFF !important;
+    text-shadow:none;
+    background:#E67C33;
+  }
+  @media (max-width:400px) {
+    max-width:275px;
+    font-size:16px;
+    height:50px;
+  }
+}
 
 // My Dependencies //
 @import "dependencies/_navbar.scss";
 @import "dependencies/_slides.scss";
+@import "dependencies/_phone-slug.scss";
 
 // End My Dependencies //
 
