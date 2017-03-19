@@ -23151,6 +23151,9 @@ body.stretched #header.full-header .container {
     font-family: "Poppins", sans-serif; }
   .section-specials .col-md-6 {
     padding: 0; }
+    @media (max-width: 767px) {
+      .section-specials .col-md-6 {
+        padding: 0 15px; } }
   .section-specials .price {
     font-size: 100px;
     color: #FFFFFF;
@@ -23197,6 +23200,12 @@ body.stretched #header.full-header .container {
     @media (max-width: 500px) {
       .section-specials h6 {
         font-size: 24px; } }
+    @media (max-width: 400px) {
+      .section-specials h6 {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px; } }
   .section-specials p {
     font-size: 20px;
     color: #605C4D;
@@ -23209,7 +23218,9 @@ body.stretched #header.full-header .container {
         padding-right: 0; } }
     @media (max-width: 480px) {
       .section-specials p {
-        font-size: 16px; } }
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px; } }
   .section-specials .row {
     padding-bottom: 30px;
     padding-top: 30px; }
@@ -23319,7 +23330,8 @@ body.stretched #header.full-header .container {
     .section-reviews h2 {
       line-height: 40px; }
     .section-reviews .col-1, .section-reviews .col-2 {
-      padding: 0; }
+      padding-left: 15px;
+      padding-right: 15px; }
     .section-reviews iframe {
       max-height: 500px !important; }
     .section-reviews .bf-dv {

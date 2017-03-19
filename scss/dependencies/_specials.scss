@@ -48,6 +48,9 @@
   }
   .col-md-6 {
     padding:0;
+    @media (max-width:767px) {
+      padding:0 15px;
+    }
   }
   .price {
     font-size: 100px;
@@ -93,6 +96,12 @@
     @media (max-width:500px) {
       font-size:24px;
     }
+    @media (max-width:400px) {
+      text-align:left;
+      padding-left:15px;
+      padding-right:15px;
+      font-size:20px;
+    }
   }
   p {
     font-size: 20px;
@@ -106,6 +115,8 @@
     }
     @media (max-width:480px) {
       font-size:16px;
+      padding-left:15px;
+      padding-right:15px;
     }
 
   }
@@ -210,5 +221,7 @@
     padding-top:0 !important;
   }
 }
+
+
 
 
