@@ -36,9 +36,11 @@ h2 {
   font-family:$poppins;
   @media (max-width:768px) {
     font-size:36px;
+    line-height:42px;
   }
   @media (max-width:480px) {
     font-size:32px;
+    line-height:38px;
   }
 
 }
@@ -106,6 +108,7 @@ section {
 @import "dependencies/_slides.scss";
 @import "dependencies/_phone-slug.scss";
 @import "dependencies/_meet-the-team.scss";
+@import "dependencies/_specials.scss";
 
 // End My Dependencies //
 
