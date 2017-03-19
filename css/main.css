@@ -22945,6 +22945,9 @@ body.stretched #header.full-header .container {
   padding-top: 39px;
   padding-bottom: 39px; }
 
+#slider, .swiper-wrapper, .swiper-slide {
+  max-height: 800px; }
+
 .slide-1, .slide-2, .slide-3 {
   background-size: cover;
   background-repeat: no-repeat;
