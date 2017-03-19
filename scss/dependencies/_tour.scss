@@ -1,0 +1,35 @@
+.section-tour {
+  padding:80px 0;
+  background:#E2EFF1;
+  h2 {
+    color:#639390;
+    margin-bottom:0;
+    @media (max-width:991px) {
+      margin-bottom:10px;
+    }
+  }
+  p {
+    color:#4B4B4B;
+    margin-top:-80px;
+  }
+  .row {
+    display:flex;
+    @media (max-width:991px) {
+      display:block;
+    }
+  }
+  .col-1 {
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  @media (max-width:1200px) {
+    .col-1 {
+      display:block;
+
+    }
+    p {
+      margin-top:0;
+    }
+  }
+}

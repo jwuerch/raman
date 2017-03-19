@@ -23600,4 +23600,38 @@ button.close, .close:focus, .close:hover {
 .form-control {
   font-size: 16px !important; }
 
+.section-tour {
+  padding: 80px 0;
+  background: #E2EFF1; }
+  .section-tour h2 {
+    color: #639390;
+    margin-bottom: 0; }
+    @media (max-width: 991px) {
+      .section-tour h2 {
+        margin-bottom: 10px; } }
+  .section-tour p {
+    color: #4B4B4B;
+    margin-top: -80px; }
+  .section-tour .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 991px) {
+      .section-tour .row {
+        display: block; } }
+  .section-tour .col-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  @media (max-width: 1200px) {
+    .section-tour .col-1 {
+      display: block; }
+    .section-tour p {
+      margin-top: 0; } }
+
 /*# sourceMappingURL=main.css.map */
