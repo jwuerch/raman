@@ -39,7 +39,7 @@ h2 {
     line-height:42px;
   }
   @media (max-width:480px) {
-    font-size:32px;
+    font-size:28px;
     line-height:38px;
   }
 
@@ -109,6 +109,7 @@ section {
 @import "dependencies/_phone-slug.scss";
 @import "dependencies/_meet-the-team.scss";
 @import "dependencies/_specials.scss";
+@import "dependencies/_reviews.scss";
 
 // End My Dependencies //
 

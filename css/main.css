@@ -22819,7 +22819,7 @@ h2 {
       line-height: 42px; } }
   @media (max-width: 480px) {
     h2 {
-      font-size: 32px;
+      font-size: 28px;
       line-height: 38px; } }
 
 h3 {
@@ -23275,5 +23275,13 @@ body.stretched #header.full-header .container {
 @media (max-width: 480px) {
   .section-specials > div > div.row {
     padding-top: 0 !important; } }
+
+.section-reviews {
+  background: url("../images/review-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .section-reviews h2 {
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
