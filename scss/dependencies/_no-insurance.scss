@@ -1,3 +1,131 @@
-.no-insurance-section {
+.section-no-insurance {
+  padding:180px 0;
+  background:url('../images/insurance-bg.jpg');
+  background-size:cover;
+  background-position:0% 100%;
+  background-repeat:no-repeat;
+  h2 {
+    font-size:61px;
+    font-weight:700 !important;
+    color:#CD6A72;
+    margin-bottom:-5px;
+  }
+  h3 {
+    color:#4C8481;
+    font-size:46px;
+    font-weight:400;
+  }
+  h4 {
+    color:#71706E;
+    font-size:42px;
+    font-weight:400;
+    margin-bottom:0;
+    line-height:50px;
+  }
+  .monthly-fee {
+    margin-bottom:30px;
+  }
+  .col-1 {
+    padding-left:50px;
+  }
+  p {
+    margin-bottom:10px;
+    font-size:22px;
+  }
+  .button {
+    margin-top:40px;
+    max-width:275px;
+  }
+  @media (max-width:1400px) {
 
+    .col-1 {
+      padding-left:80px;
+    }
+    h2 {
+      font-size:54px;
+    }
+    h3 {
+      font-size:42px;
+    }
+    h4 {
+      font-size:38px;
+    }
+  }
+  @media (max-width:1325px) {
+    padding:160px 0;
+    .col-1 {
+      padding-left:110px;
+    }
+    h2 {
+      font-size:50px;
+    }
+    h3 {
+      font-size:38px;
+    }
+    h4 {
+      font-size:34px;
+      line-height:40px;
+    }
+  }
+  @media (max-width:1200px) {
+    background:#F2F2EA;
+    padding:40px 0;
+    .col-1 {
+      padding:0;
+      text-align:center;
+    }
+    .button {
+      margin:0 auto;
+      margin-top:20px;
+    }
+    h3 {
+      font-size:36px;
+    }
+  }
+  @media (max-width:991px) {
+    padding:30px 0;
+  }
+  @media (max-width:767px) {
+    h2 {
+      font-size:46px;
+    }
+    h3 {
+      font-size:34px;
+      margin-bottom:10px;
+    }
+    h4 {
+      font-size:28px;
+    }
+    p {
+      font-size:20px;
+    }
+  }
+  @media (max-width:480px) {
+    padding: 20px 0 0 0;
+    h2 {
+      font-size:34px;
+    }
+    h3 {
+      font-size:23px;
+    }
+    h4 {
+      font-size:21px;
+      line-height:30px;
+
+    }
+    .monthly-fee {
+      margin-bottom:25px;
+    }
+    p {
+      margin-bottom:15px;
+      line-height:25px !important;
+      font-size:18px;
+    }
+    .button {
+      margin-top:30px;
+    }
+  }
+}
+.no-insurance-below img {
+  width:100%;
 }

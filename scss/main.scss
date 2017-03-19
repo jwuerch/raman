@@ -4,6 +4,7 @@ $source-sans-pro:'Source Sans Pro', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
 $lato: 'Lato', sans-serif;
 $poppins: 'Poppins', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 
 
@@ -110,6 +111,7 @@ section {
 @import "dependencies/_meet-the-team.scss";
 @import "dependencies/_specials.scss";
 @import "dependencies/_reviews.scss";
+@import "dependencies/_no-insurance.scss";
 
 // End My Dependencies //
 
