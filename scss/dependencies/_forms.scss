@@ -1,0 +1,79 @@
+.section-forms {
+  padding:60px 0;
+  h2 {
+    color:#46727C;
+    margin-bottom:0;
+  }
+  p {
+    margin-bottom:50px;
+  }
+  .button {
+    border-radius:100px;
+    border:0;
+    font-family:$lato;
+    font-weight:700;
+    font-size:18px;
+  }
+  .button-1 {
+    background:#347E52;
+    &:hover {
+      background:#2E6F48;
+    }
+  }
+  .button-2 {
+    background: #639375;
+    &:hover {
+      background:#588267;
+    }
+  }
+  .button-1, .button-3, .button-5 {
+    margin-bottom:50px;
+  }
+  .button-3 {
+    background:#1BAE7B;
+    &:hover {
+      background:#189C6E;
+    }
+  }
+  .button-4 {
+    background:#3BB1A5;
+    &:hover {
+      background:#349B90;
+    }
+  }
+  .button-5 {
+    background:#11776D;
+    &:hover {
+      background:#0E645C;
+    }
+  }
+  .button-6 {
+    background:#009889;
+    &:hover {
+      background:#008477;
+    }
+  }
+  @media (max-width:1200px) {
+    .button {
+      font-size:17px;
+    }
+  }
+  @media (max-width:991px) {
+    .button {
+      margin:0 auto;
+      margin-bottom:25px;
+
+    }
+  }
+  @media (max-width:767px) {
+    .button {
+      font-size:16px;
+    }
+    padding:30px 0;
+    p {
+      margin:10px 0 35px 0;
+      line-height:25px !important;
+    }
+  }
+
+}
