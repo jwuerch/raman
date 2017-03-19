@@ -1,4 +1,16 @@
 .service-modal {
+  .img-wrap {
+    text-align:center;
+    margin-bottom:10px;
+    width:100%;
+  }
+  p {
+    line-height:28px !important;
+    color:#4B4B4B;
+  }
+  h4 {
+    color:#5A8D89;
+  }
 
 }
 
@@ -6,6 +18,22 @@
 
 }
 
+button.close, .close:focus, .close:hover {
+  color:#000 !important;
+}
+
+.modal {
+  .close:focus, .close:hover {
+    color:#000 !important;
+  }
+  .close {
+    font-size:35px;
+    color:#000 !important;
+    span {
+      color:#000 !important;
+    }
+  }
+}
 .form-control {
   font-size:16px !important;
 }

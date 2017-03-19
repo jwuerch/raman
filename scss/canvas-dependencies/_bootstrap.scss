@@ -4226,7 +4226,6 @@ a.thumbnail.active {
   position: relative;
   top: -2px;
   right: -21px;
-  color: inherit;
 }
 .alert-success {
   background-color: #dff0d8;
@@ -5017,8 +5016,6 @@ button.list-group-item-danger.active:focus {
   font-weight: bold;
   line-height: 1;
   color: #000000;
-  text-shadow: 0 1px 0 #ffffff;
-  opacity: 0.2;
   filter: alpha(opacity=20);
 }
 .close:hover,
@@ -5026,8 +5023,6 @@ button.list-group-item-danger.active:focus {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 button.close {
   padding: 0;

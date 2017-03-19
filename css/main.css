@@ -3921,8 +3921,7 @@ a.thumbnail.active {
 .alert-dismissible .close {
   position: relative;
   top: -2px;
-  right: -21px;
-  color: inherit; }
+  right: -21px; }
 
 .alert-success {
   background-color: #dff0d8;
@@ -4689,17 +4688,13 @@ button.list-group-item-danger.active:focus {
   font-weight: bold;
   line-height: 1;
   color: #000000;
-  text-shadow: 0 1px 0 #ffffff;
-  opacity: 0.2;
   filter: alpha(opacity=20); }
 
 .close:hover,
 .close:focus {
   color: #000000;
   text-decoration: none;
-  cursor: pointer;
-  opacity: 0.5;
-  filter: alpha(opacity=50); }
+  cursor: pointer; }
 
 button.close {
   padding: 0;
@@ -23577,5 +23572,32 @@ body.stretched #header.full-header .container {
     line-height: 32px; }
   .section-more-services .owl-carousel img {
     border-radius: 16px; }
+
+.service-modal .img-wrap {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%; }
+
+.service-modal p {
+  line-height: 28px !important;
+  color: #4B4B4B; }
+
+.service-modal h4 {
+  color: #5A8D89; }
+
+button.close, .close:focus, .close:hover {
+  color: #000 !important; }
+
+.modal .close:focus, .modal .close:hover {
+  color: #000 !important; }
+
+.modal .close {
+  font-size: 35px;
+  color: #000 !important; }
+  .modal .close span {
+    color: #000 !important; }
+
+.form-control {
+  font-size: 16px !important; }
 
 /*# sourceMappingURL=main.css.map */
