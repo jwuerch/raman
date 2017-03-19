@@ -23447,6 +23447,9 @@ body.stretched #header.full-header .container {
   @media (max-width: 480px) {
     .section-our-services p {
       font-size: 16px; } }
+  @media (max-width: 991px) {
+    .section-our-services p {
+      margin-bottom: 0; } }
 
 .services h3 {
   color: #5A8D89;
@@ -23709,5 +23712,133 @@ button.close, .close:focus, .close:hover {
       text-align: center; }
     .section-logos .col-1 {
       margin-bottom: 20px; } }
+
+.section-contact {
+  max-height: 900px;
+  height: 900px;
+  padding: 0; }
+  .section-contact #contact-form-overlay-mini {
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center; }
+  .section-contact p {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #222222;
+    line-height: 25px !important; }
+  .section-contact .p-2 {
+    margin-bottom: 25px; }
+  .section-contact .p-3 {
+    font-size: 16px;
+    color: #2A9FBB;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 15px;
+    text-decoration: underline; }
+    .section-contact .p-3 a {
+      color: #2A9FBB; }
+  .section-contact .p-4, .section-contact .p-6 {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    color: #3B5170;
+    margin-bottom: 10px; }
+  .section-contact .p-6 a {
+    color: #575757;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 20px; }
+  .section-contact .p-5 {
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin-bottom: 15px; }
+    .section-contact .p-5 a {
+      color: #575757; }
+      .section-contact .p-5 a:hover {
+        text-decoration: none; }
+  .section-contact .button {
+    margin: 20px 0 0 0; }
+  .section-contact h6 {
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #575757; }
+  .section-contact #google-map {
+    height: 900px;
+    max-height: 900px; }
+  .section-contact h4 {
+    color: #F1655D;
+    font-size: 28px;
+    margin: 20px 0 5px 0; }
+  .section-contact .col-1, .section-contact .col-2 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left; }
+    .section-contact .col-1 p, .section-contact .col-2 p {
+      color: #222222;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: "Lato", sans-serif; }
+  .section-contact .col-1 {
+    padding-left: 30px; }
+  @media (max-width: 991px) {
+    .section-contact {
+      background: #FFF;
+      height: initial;
+      padding: 0;
+      max-height: 800px; }
+      .section-contact #contact-form-overlay-mini {
+        box-shadow: none;
+        padding: 0 20px; }
+        .section-contact #contact-form-overlay-mini .button {
+          margin: 0 auto;
+          margin-top: 20px;
+          margin-bottom: 0; }
+      .section-contact #google-map {
+        height: auto; } }
+  @media (max-width: 480px) {
+    .section-contact .button {
+      max-width: 300px;
+      font-size: 16px; }
+    .section-contact #contact-form-overlay-mini {
+      padding: 0; }
+    .section-contact .col-2, .section-contact .col-1 {
+      padding: 0; }
+      .section-contact .col-2 p, .section-contact .col-1 p {
+        font-size: 15px; } }
+  @media (max-width: 400px) {
+    .section-contact .row {
+      padding: 0 10px; }
+    .section-contact .col-2 p, .section-contact .col-1 p {
+      font-size: 14px; } }
+
+footer {
+  border-top: 0 !important; }
+  footer #copyrights {
+    background: #1E758A;
+    color: #FFF; }
+    footer #copyrights .social-icon {
+      margin-right: 20px; }
+      footer #copyrights .social-icon:hover {
+        text-decoration: none !important; }
+  footer a {
+    color: #FFF; }
+    footer a:hover {
+      text-decoration: underline !important;
+      color: #FFF; }
+
+@media (max-width: 767px) {
+  #copyrights .col_half:last-child {
+    width: 100% !important;
+    text-align: center;
+    display: block; }
+    #copyrights .col_half:last-child > div {
+      margin-top: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

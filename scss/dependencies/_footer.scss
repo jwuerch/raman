@@ -1,0 +1,34 @@
+footer {
+  border-top:0 !important;
+  #copyrights {
+    background:#1E758A;
+    color:#FFF;
+    .social-icon {
+      margin-right:20px;
+      &:hover {
+        text-decoration:none !important;
+      }
+    }
+  }
+  a {
+    color:#FFF;
+    &:hover {
+      text-decoration:underline !important;
+      color:#FFF;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  #copyrights .col_half:last-child {
+    width:100% !important;
+    text-align:center;
+    display:block;
+    > div {
+      margin-top:20px;
+      display:flex;
+      justify-content:center;
+      width:100%;
+    }
+  }
+}
