@@ -23100,7 +23100,8 @@ body.stretched #header.full-header .container {
   background: url("../images/specials-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 70% 100%; }
+  background-position: 70% 100%;
+  background-attachment: fixed; }
   @media (max-width: 1200px) {
     .section-specials {
       background: none;
@@ -23741,7 +23742,7 @@ h4.modal-title {
 
 .section-logos {
   background: #F2F2F1;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.22) !important;
   padding: 30px 0; }
   .section-logos h6 {
     font-family: "Open Sans", sans-serif;
