@@ -101,19 +101,74 @@
   background:url('../images/service-carousel-bg-green-linen.jpg');
   h2 {
     color:#FFF;
-    margin-bottom:10px;
+    margin-bottom:0;
   }
   p {
     color:#FFF;
+    margin-bottom:40px;
   }
   @media (max-width:480px) {
     p {
       font-size:16px;
     }
   }
-  .owl-carousel h4 {
-    margin-top:20px;
-    color:#FFF;
-    font-size:26px;
+  .owl-carousel {
+
+    .owl-prev, .owl-next {
+      opacity:1 !important;
+      top:35%;
+      width:50px;
+      height:50px;
+      border-radius:9999px;
+      display:flex;
+      color:#FFF !important;
+      justify-content:center;
+      align-items: center;
+      align-self:center;
+      background:rgba(255, 255, 255, .39);
+      border:none;
+      @media (max-width:991px) {
+        top:30%;
+      }
+      @media (max-width:480px) {
+        top:35%;
+      }
+      &:hover {
+        color:#FFF;
+      }
+    }
+    .owl-prev {
+      left:-36px !important;
+      @media (max-width:480px) {
+        left:-36px !important;
+      }
+
+    }
+    .owl-next {
+      right:-36px !important;
+      @media (max-width:480px) {
+        right:-36px !important;
+      }
+    }
+    .owl-nav {
+
+    }
+
+
+    h4 {
+      margin-top:20px;
+      color:#FFF;
+      font-size:22px;
+      font-weight:400;
+      line-height:32px;
+    }
+    img {
+      border-radius:16px;
+    }
+
   }
+
+  //#oc-portfolio-2 > div.owl-nav:nth-of-type(2) {
+  //  display:none;
+  //}
 }

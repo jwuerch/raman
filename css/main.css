@@ -23524,15 +23524,58 @@ body.stretched #header.full-header .container {
   background: url("../images/service-carousel-bg-green-linen.jpg"); }
   .section-more-services h2 {
     color: #FFF;
-    margin-bottom: 10px; }
+    margin-bottom: 0; }
   .section-more-services p {
-    color: #FFF; }
+    color: #FFF;
+    margin-bottom: 40px; }
   @media (max-width: 480px) {
     .section-more-services p {
       font-size: 16px; } }
+  .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
+    opacity: 1 !important;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFF !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    background: rgba(255, 255, 255, 0.39);
+    border: none; }
+    @media (max-width: 991px) {
+      .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
+        top: 30%; } }
+    @media (max-width: 480px) {
+      .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
+        top: 35%; } }
+    .section-more-services .owl-carousel .owl-prev:hover, .section-more-services .owl-carousel .owl-next:hover {
+      color: #FFF; }
+  .section-more-services .owl-carousel .owl-prev {
+    left: -36px !important; }
+    @media (max-width: 480px) {
+      .section-more-services .owl-carousel .owl-prev {
+        left: -36px !important; } }
+  .section-more-services .owl-carousel .owl-next {
+    right: -36px !important; }
+    @media (max-width: 480px) {
+      .section-more-services .owl-carousel .owl-next {
+        right: -36px !important; } }
   .section-more-services .owl-carousel h4 {
     margin-top: 20px;
     color: #FFF;
-    font-size: 26px; }
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px; }
+  .section-more-services .owl-carousel img {
+    border-radius: 16px; }
 
 /*# sourceMappingURL=main.css.map */

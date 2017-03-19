@@ -46,4 +46,33 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+
+    $('#more-services #oc-portfolio-2').owlCarousel({
+        navigation:true,
+        margin: 40,
+        loop: true,
+        dots:false,
+        autoplay:true,
+        autoplaySpeed:1000,
+        autoplayHoverPause: true,
+        responsive: {
+            0:{
+                items:1,
+                nav:true
+            },
+            481:{
+                items:2,
+                nav:true
+            },
+            768:{
+                items:3,
+                nav:true
+            },
+            1200:{
+                items:4,
+                nav:true
+            }
+        },
+        navText: ["<img src='images/triangle-left.png' alt='triangle-left'>","<img src='images/triangle-right.png' alt='triangle-right'>"]
+    });
 })(jQuery);
