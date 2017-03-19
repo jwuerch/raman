@@ -23012,6 +23012,12 @@ body.stretched #header.full-header .container {
     .phone-slug-two-column .col-1 .new-hotline-phone {
       font-size: 34px; } }
 
+.phone-slug-2 {
+  padding: 30px 0; }
+  @media (max-width: 767px) {
+    .phone-slug-2 {
+      padding: 30px 0 40px 0; } }
+
 .section-meet-the-team h2 {
   color: #CD6A72;
   margin-bottom: 50px; }
