@@ -1,3 +1,98 @@
-.services-section {
+.section-our-services {
+  background:#FFF;
+  h2 {
+    color:#CD6A72;
+    margin-bottom:10px;
+  }
+  .description {
+    color:#4B4B4B;
+    a {
+      text-decoration:underline !important;
+      color:#33CFC5;
+    }
+  }
+  @media (max-width:480px) {
+    p {
+      font-size:16px;
+    }
+  }
 
+}
+
+
+.services {
+  h3 {
+    color:#5A8D89;
+    margin-bottom:20px;
+    font-size:45px;
+    font-family:$poppins;
+    font-weight:400;
+    @media (max-width:1200px) {
+      font-size:36px;
+    }
+    @media (max-width:767px) {
+      font-size:32px;
+    }
+    @media (max-width:480px) {
+      font-size:22px;
+    }
+  }
+  p {
+    color:#4B4B4B;
+    @media (max-width:480px) {
+      font-size:16px;
+    }
+  }
+
+}
+.services-below {
+  img {
+    width:100%;
+  }
+}
+
+.section-smile-makeovers {
+  padding:200px 0;
+  background:url('../images/cosmetic.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:100% 100%;
+  @media (max-width:991px) {
+    padding:30px 0 0 0;
+    background:#FFF;
+  }
+}
+
+.section-dental-implant-restoration {
+  padding:200px 0;
+  background:url('../images/implants.jpg');
+  background-size:cover;
+  background-position:0% 100%;
+  background-repeat:no-repeat;
+  @media (max-width:1200px) {
+    background-position:20% 100%;
+  }
+  @media (max-width:991px) {
+    padding:30px 0 0 0;
+    background:#FFF;
+  }
+}
+
+.section-invisalign {
+  padding:200px 0;
+  background:url('../images/invisalign.jpg');
+  background-size:cover;
+  background-position:100% 100%;
+  background-repeat:no-repeat;
+  .img-wrap {
+    margin-bottom:20px;
+    width:95%;
+  }
+  @media (max-width:1200px) {
+    background-position:80% 100%;
+  }
+  @media (max-width:991px) {
+    padding:30px 0 0 0;
+    background:#FFF;
+  }
 }
