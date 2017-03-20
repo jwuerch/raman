@@ -178,3 +178,21 @@
     }
   }
 }
+
+.text-box-name {
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding:25px 50px 25px 25px;
+  p {
+    font-family: $source-sans-pro;
+    font-weight:300;
+    font-size: 30.71px;
+    color: #FFFFFF;
+
+  }
+
+  span {
+    font-size:26px;
+  }
+}

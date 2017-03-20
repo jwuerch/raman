@@ -23081,6 +23081,19 @@ body.stretched #header.full-header .container {
     .one-page-arrow i:hover {
       color: #FFF; }
 
+.text-box-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 25px 50px 25px 25px; }
+  .text-box-name p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 30.71px;
+    color: #FFFFFF; }
+  .text-box-name span {
+    font-size: 26px; }
+
 .phone-slug-two-column {
   padding: 20px 0;
   background: url("../images/cta-pattern-blue-linen.jpg");
