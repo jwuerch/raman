@@ -2,21 +2,118 @@
   max-height:800px;
 }
 .slide-1 {
+  background:url('../images/slide1.jpg');
+  background-position:100% 100%;
+  h1 {
+    font-family: $source-sans-pro;
+    font-weight:700 !important;
+    font-size: 96.45px;
+    color: #FFFFFF;
+    letter-spacing: 1.6px;
+    line-height: 77px;
+  }
+  h2 {
+    text-transform:none;
+    font-size:66.4px;
+    font-family:$poppins;
+    font-weight:300 !important;
+    color:#FFF !important;
+    margin-bottom:80px;
 
+  }
+  h6 {
+    font-family: $montserrat;
+    font-weight:700;
+    font-size: 31.45px;
+    color: #444444;
+    letter-spacing: 0.52px;
+    margin-bottom:30px;
+  }
+  @media (max-width:1200px) {
+    h1 {
+      font-size:72px;
+      margin-bottom:10px;
+    }
+    h2 {
+      font-size:54px;
+    }
+    h6 {
+      font-size:28px;
+    }
+  }
 }
 
 .slide-2 {
+  background:url('../images/slide2.jpg');
+  background-position:100% 100%;
+
+
+  h2 {
+    text-align:center;
+    font-size:50.4px;
+    font-weight:300;
+    font-family:$poppins;
+    color:#FFF !important;
+    letter-spacing:0 !important;
+    text-transform:none;
+    margin-bottom:0;
+  }
+  .h2-1 {
+    margin-bottom:5px;
+  }
+  .h2-2 {
+    margin-bottom:15px;
+    font-size:56px;
+    font-family:$source-sans-pro;
+    font-weight:700 !important;
+  }
+  .star-set {
+    text-align:center;
+    margin-bottom:10px;
+    .icon-star3 {
+      color:#FFD900;
+      font-size:45px;
+      margin:0 3px;
+    }
+  }
+  p {
+    font-family: $open-sans;
+    font-size: 31px;
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
+    line-height: 44px;
+    text-align:center;
+    margin-bottom:40px;
+    .author {
+      font-weight:700;
+    }
+  }
+  .button {
+    margin:0 auto;
+  }
+  @media (max-width:1200px) {
+    background-position-x:50%;
+    .slider-caption {
+      margin-left:-55px;
+    }
+    .h2-1 {
+      font-size:48px;
+    }
+    .h2-2 {
+      font-size:52px;
+    }
+  }
+
 
 }
 
 .slide-3 {
-
+  background:url('../images/slide3.jpg');
 }
 
 .slide-1, .slide-2, .slide-3 {
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:100% 100%;
 }
 
 #slider {
