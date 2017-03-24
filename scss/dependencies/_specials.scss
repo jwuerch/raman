@@ -4,7 +4,7 @@
   background-repeat:no-repeat;
   background-position:70% 100%;
   background-attachment:fixed;
-  @media (max-width:1200px) {
+  @media (max-width:1199px) {
     background:none;
     padding-bottom:0;
   }
@@ -83,7 +83,7 @@
     text-align:left;
     line-height:30px;
     font-family:$source-sans-pro;
-    @media (max-width:1200px) {
+    @media (max-width:1199px) {
       margin-top:30px;
     }
     @media (max-width:991px) {
@@ -109,12 +109,12 @@
     color: #605C4D;
     line-height:25px !important;
     @media (max-width:1325px) {
-      padding-right:50px;
+      padding-right:25px;
     }
     @media (max-width:767px) {
       padding-right:0;
     }
-    @media (max-width:480px) {
+    @media (max-width:479px) {
       font-size:16px;
       padding-left:15px;
       padding-right:15px;
@@ -130,7 +130,7 @@
 
   }
   .row-3 {
-    @media (max-width:1200px) {
+    @media (max-width:1199px) {
       padding-bottom:0;
     }
   }
@@ -181,7 +181,7 @@
       font-size:22px;
     }
   }
-  @media (max-width:768px) {
+  @media (max-width:767px) {
     h2 {
       margin-bottom:10px;
     }
@@ -190,7 +190,7 @@
       line-height:30px !important;
     }
   }
-  @media (max-width:480px) {
+  @media (max-width:479px) {
     h5 {
       font-size:16px;
       line-height:24px !important;
@@ -218,10 +218,12 @@
 }
 
 .section-specials > div > div.row {
-  @media (max-width:480px) {
+  @media (max-width:479px) {
     padding-top:0 !important;
   }
 }
+
+
 
 
 

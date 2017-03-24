@@ -22888,7 +22888,7 @@ section {
   border-right: 0; }
   #header.full-header #logo img {
     padding: 5px 0; }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     #header.full-header #logo {
       float: left; }
       #header.full-header #logo img {
@@ -22926,6 +22926,10 @@ section {
   .navbar a {
     font-size: 14px; } }
 
+@media (max-width: 991px) {
+  #primary-menu ul > li > a {
+    font-size: 16px; } }
+
 body.stretched #header.full-header .container {
   padding-left: 15px;
   padding-right: 15px; }
@@ -22944,6 +22948,9 @@ body.stretched #header.full-header .container {
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
   padding-bottom: 39px; }
+
+#logo:hover {
+  cursor: pointer; }
 
 #slider, .swiper-wrapper, .swiper-slide {
   max-height: 800px; }
@@ -22972,7 +22979,7 @@ body.stretched #header.full-header .container {
     color: #444444;
     letter-spacing: 0.52px;
     margin-bottom: 30px; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .slide-1 h1 {
       font-size: 72px;
       margin-bottom: 10px; }
@@ -23141,7 +23148,7 @@ body.stretched #header.full-header .container {
       .phone-slug-two-column .col-2 .button {
         margin: 0 auto;
         margin-top: 15px; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .phone-slug-two-column .col-1 .new-hotline-phone {
       font-size: 34px; } }
 
@@ -23178,7 +23185,7 @@ body.stretched #header.full-header .container {
   .section-meet-the-team h2 {
     margin-bottom: 20px; } }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .section-meet-the-team .col-2 h3 {
     font-size: 28px; }
     .section-meet-the-team .col-2 h3 .dmd {
@@ -23212,7 +23219,7 @@ body.stretched #header.full-header .container {
   .meet-the-team-below .img-wrap {
     position: absolute;
     top: -55px; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .meet-the-team-below .container {
       height: 240px; }
     .meet-the-team-below .img-wrap {
@@ -23240,7 +23247,7 @@ body.stretched #header.full-header .container {
   background-repeat: no-repeat;
   background-position: 70% 100%;
   background-attachment: fixed; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-specials {
       background: none;
       padding-bottom: 0; } }
@@ -23320,7 +23327,7 @@ body.stretched #header.full-header .container {
     text-align: left;
     line-height: 30px;
     font-family: "Source Sans Pro", sans-serif; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
       .section-specials h6 {
         margin-top: 30px; } }
     @media (max-width: 991px) {
@@ -23346,11 +23353,11 @@ body.stretched #header.full-header .container {
     line-height: 25px !important; }
     @media (max-width: 1325px) {
       .section-specials p {
-        padding-right: 50px; } }
+        padding-right: 25px; } }
     @media (max-width: 767px) {
       .section-specials p {
         padding-right: 0; } }
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       .section-specials p {
         font-size: 16px;
         padding-left: 15px;
@@ -23361,7 +23368,7 @@ body.stretched #header.full-header .container {
     @media (max-width: 767px) {
       .section-specials .row {
         padding-bottom: 0; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-specials .row-3 {
       padding-bottom: 0; } }
   .section-specials .border-top {
@@ -23394,13 +23401,13 @@ body.stretched #header.full-header .container {
   @media (max-width: 991px) {
     .section-specials h5 {
       font-size: 22px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .section-specials h2 {
       margin-bottom: 10px; }
     .section-specials h5 {
       font-size: 20px;
       line-height: 30px !important; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-specials h5 {
       font-size: 16px;
       line-height: 24px !important; } }
@@ -23417,7 +23424,7 @@ body.stretched #header.full-header .container {
 .specials-below img {
   width: 100%; }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .section-specials > div > div.row {
     padding-top: 0 !important; } }
 
@@ -23448,7 +23455,7 @@ body.stretched #header.full-header .container {
         text-decoration: underline !important; }
   .section-reviews .row-1 {
     margin-bottom: 60px; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-reviews h2 {
       line-height: 55px; } }
   @media (max-width: 991px) {
@@ -23470,7 +23477,7 @@ body.stretched #header.full-header .container {
       max-height: 500px !important; }
     .section-reviews .bf-dv {
       margin-top: 20px !important; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-reviews iframe {
       max-height: 450px !important; } }
 
@@ -23526,7 +23533,7 @@ body.stretched #header.full-header .container {
       .section-no-insurance h4 {
         font-size: 34px;
         line-height: 40px; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-no-insurance {
       background: #F2F2EA;
       padding: 40px 0; }
@@ -23551,7 +23558,7 @@ body.stretched #header.full-header .container {
       font-size: 28px; }
     .section-no-insurance p {
       font-size: 20px; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-no-insurance {
       padding: 30px 0 0 0; }
       .section-no-insurance h2 {
@@ -23583,7 +23590,7 @@ body.stretched #header.full-header .container {
     .section-our-services .description a {
       text-decoration: underline !important;
       color: #33CFC5; }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-our-services p {
       font-size: 16px; } }
   @media (max-width: 991px) {
@@ -23602,13 +23609,13 @@ body.stretched #header.full-header .container {
   @media (max-width: 767px) {
     .services h3 {
       font-size: 32px; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .services h3 {
       font-size: 22px; } }
 
 .services p {
   color: #4B4B4B; }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .services p {
       font-size: 16px; } }
 
@@ -23632,7 +23639,7 @@ body.stretched #header.full-header .container {
   background-size: cover;
   background-position: 0% 100%;
   background-repeat: no-repeat; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-dental-implant-restoration {
       background-position: 20% 100%; } }
   @media (max-width: 991px) {
@@ -23665,7 +23672,7 @@ body.stretched #header.full-header .container {
   .section-more-services p {
     color: #FFF;
     margin-bottom: 40px; }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-more-services p {
       font-size: 16px; } }
   .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
@@ -23691,19 +23698,19 @@ body.stretched #header.full-header .container {
     @media (max-width: 991px) {
       .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
         top: 30%; } }
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       .section-more-services .owl-carousel .owl-prev, .section-more-services .owl-carousel .owl-next {
         top: 35%; } }
     .section-more-services .owl-carousel .owl-prev:hover, .section-more-services .owl-carousel .owl-next:hover {
       color: #FFF; }
   .section-more-services .owl-carousel .owl-prev {
     left: -36px !important; }
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       .section-more-services .owl-carousel .owl-prev {
         left: -36px !important; } }
   .section-more-services .owl-carousel .owl-next {
     right: -36px !important; }
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       .section-more-services .owl-carousel .owl-next {
         right: -36px !important; } }
   .section-more-services .owl-carousel h4 {
@@ -23788,6 +23795,9 @@ h4.modal-title {
           justify-content: center;
   max-width: 100%;
   padding-top: 5px; }
+  @media (max-width: 400px) {
+    #contact-modal .button {
+      font-size: 14px; } }
 
 .section-tour {
   padding: 80px 0;
@@ -23817,7 +23827,7 @@ h4.modal-title {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-tour .col-1 {
       display: block; }
     .section-tour p {
@@ -23862,7 +23872,7 @@ h4.modal-title {
     background: #009889; }
     .section-forms .button-6:hover {
       background: #008477; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     .section-forms .button {
       font-size: 17px; } }
   @media (max-width: 991px) {
@@ -23888,7 +23898,10 @@ h4.modal-title {
     color: #5D7278;
     font-weight: 400; }
   .section-logos img {
-    max-width: 250px; }
+    max-width: 325px; }
+    @media (max-width: 767px) {
+      .section-logos img {
+        max-width: 275px; } }
   .section-logos .col-1 {
     text-align: right; }
   .section-logos .col-2 {
@@ -23983,7 +23996,7 @@ h4.modal-title {
           margin-bottom: 0; }
       .section-contact #google-map {
         height: auto; } }
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .section-contact .button {
       max-width: 300px;
       font-size: 16px; }

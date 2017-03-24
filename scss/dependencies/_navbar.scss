@@ -12,7 +12,7 @@
     padding:5px 0;
 
   }
-  @media (max-width:480px) {
+  @media (max-width:479px) {
     float:left;
     img {
       max-width:250px;
@@ -59,7 +59,11 @@
     }
   }
 }
-
+@media (max-width:991px) {
+  #primary-menu ul > li > a {
+    font-size:16px;
+  }
+}
 
 body.stretched #header.full-header .container {
   padding-left:15px;
@@ -82,4 +86,8 @@ body.stretched #header.full-header .container {
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top:39px;
   padding-bottom:39px;
+}
+
+#logo:hover {
+  cursor:pointer;
 }

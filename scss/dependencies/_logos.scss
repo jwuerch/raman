@@ -9,7 +9,10 @@
     font-weight:400;
   }
   img {
-    max-width:250px;
+    max-width:325px;
+    @media (max-width:767px) {
+      max-width:275px;
+    }
   }
   .col-1 {
     text-align:right;
